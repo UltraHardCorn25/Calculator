@@ -38,3 +38,8 @@ body{
     background-color: hsl(25, 98%, 40%);
     border-bottom: 5px solid hsl(25, 99%, 27%);
 }
+
+.btn-clicked {
+    background-color: white;
+    border-bottom: 5px solid white;
+}

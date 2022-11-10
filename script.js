@@ -24,8 +24,8 @@ buttons.forEach(e =>{
             result.innerText += e.innerText;
             res +=e.innerText;
         }
-        e.style.backgroundColor="white";
-        window.setTimeout( ()=>{e.style.backgroundColor="";},100);
+        e.setAttribute('class', 'btn-clicked button');
+        window.setTimeout( ()=>{e.setAttribute('class', 'button')},100);
     })
 });
 Delete.addEventListener('click', () => {
