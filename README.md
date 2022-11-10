@@ -1,4 +1,4 @@
-# Frontend Mentor - Calculator app
+# Frontend Mentor - Calculator app (https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29)
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
