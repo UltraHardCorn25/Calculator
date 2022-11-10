@@ -1,0 +1,50 @@
+$grayBlue:hsl(222, 26%, 31%);
+$darkGrayBlue:hsl(223, 31%, 20%);
+$gray:hsl(221, 14%, 31%);
+$buttonBgClr:hsl(225, 21%, 49%);
+$buttonShdw: hsl(224, 28%, 35%);
+$whiteis:hsl(30, 25%, 89%);
+$cream:hsl(28, 16%, 65%);
+$red:hsl(6, 63%, 50%);
+$darkRed:hsl(6, 70%, 34%);
+
+body{
+    background-color: $grayBlue;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slider {
+    background-color: hsl(223, 31%, 20%);
+}
+.dot {
+    background-color: red;
+}
+.result-container{
+    background-color: $darkGrayBlue;
+    border: 25px solid $darkGrayBlue;
+}
+.result{
+    color: white;
+}
+.calculator{
+    background-color: $darkGrayBlue;
+}
+.button {
+    background-color: $whiteis;
+    color: $gray;
+    border-bottom: 5px solid $cream;
+}
+.blue-button {
+    color: hsl(0, 0%, 100%);
+    background-color: $buttonBgClr;
+    border-bottom: 5px solid $buttonShdw;
+}
+.equals {
+    color: hsl(0, 0%, 100%);
+    background-color: $red;
+    border-bottom: 5px solid $darkRed;
+}
+.btn-clicked {
+    background-color: white;
+    border-bottom: 5px solid white;
+}

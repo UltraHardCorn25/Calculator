@@ -1,40 +1,48 @@
-body{
-    background-color: hsl(222, 26%, 31%);
-    font-family: 'League Spartan', sans-serif;
+body {
+  background-color: hsl(222deg, 26%, 31%);
+  font-family: "League Spartan", sans-serif;
 }
 
 .slider {
-    background-color: hsl(223, 31%, 20%);
+  background-color: hsl(223deg, 31%, 20%);
 }
+
 .dot {
-    background-color: red;
+  background-color: red;
 }
-.result-container{
-    background-color: hsl(223, 31%, 20%);
-    border: 25px solid hsl(223, 31%, 20%);
+
+.result-container {
+  background-color: hsl(223deg, 31%, 20%);
+  border: 25px solid hsl(223deg, 31%, 20%);
 }
-.result{
-    color: white;
+
+.result {
+  color: white;
 }
-.calculator{
-    background-color: hsl(223, 31%, 20%);
+
+.calculator {
+  background-color: hsl(223deg, 31%, 20%);
 }
+
 .button {
-    background-color: hsl(30, 25%, 89%);
-    color: hsl(221, 14%, 31%);
-    border-bottom: 5px solid hsl(28, 16%, 65%);
+  background-color: hsl(30deg, 25%, 89%);
+  color: hsl(221deg, 14%, 31%);
+  border-bottom: 5px solid hsl(28deg, 16%, 65%);
 }
+
 .blue-button {
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(225, 21%, 49%);
-    border-bottom: 5px solid hsl(224, 28%, 35%);
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(225deg, 21%, 49%);
+  border-bottom: 5px solid hsl(224deg, 28%, 35%);
 }
+
 .equals {
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(6, 63%, 50%);
-    border-bottom: 5px solid hsl(6, 70%, 34%);
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(6deg, 63%, 50%);
+  border-bottom: 5px solid hsl(6deg, 70%, 34%);
 }
+
 .btn-clicked {
-    background-color: white;
-    border-bottom: 5px solid white;
-}
+  background-color: white;
+  border-bottom: 5px solid white;
+}/*# sourceMappingURL=style-blue.css.map */
