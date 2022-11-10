@@ -8,9 +8,11 @@ var regex = /[\d|,|.|e|E|\+]+/g;
 buttons.forEach(e =>{
     e.addEventListener('click', () => {
         //this if is to check if user is trying to press more symbols in a row.
-        if(result.innerText.length>0 && isNaN(e.innerText) && isNaN(result.innerText.substring(result.innerText.length-1))){
-        } else if(isNaN(e.innerText) && result.innerText!="")//this else if is to check if user is pressing symbols and to change x in to * just fot estetic.
-        {
+        console.log(e.innerText=='.' && result.innerText.includes('.'));
+        if((result.innerText.length>0 && isNaN(e.innerText) && isNaN(result.innerText.substring(result.innerText.length-1)))|| (e.innerText=='.' && result.innerText.includes('.')))
+        {}
+        ///this else if is to check if user is pressing symbols and to change x in to * just fot estetic.
+        else if(isNaN(e.innerText) && result.innerText!=""){
             var s= result.innerText +  e.innerText;
             result.innerText = s;
             if(e.innerText =='x')
@@ -28,6 +30,8 @@ buttons.forEach(e =>{
         window.setTimeout( ()=>{e.setAttribute('class', 'button')},100);
     })
 });
+
+
 Delete.addEventListener('click', () => {
     if(result.innerText!="" || !isNaN(e.innerText))
     {
